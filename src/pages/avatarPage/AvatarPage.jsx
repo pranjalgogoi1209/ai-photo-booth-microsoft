@@ -98,9 +98,10 @@ export default function AvatarPage({
 
         try {
           axios
-            .post("https://h.ngrok.dev/rec", {
+            .post("https://52.56.108.15/trail_rec", {
               image: capturedImg.split(",")[1],
               choice: base64Data.split(",")[1],
+              // status: "PREMIUM",
             })
             .then(function (response) {
               console.log(response);
