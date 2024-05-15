@@ -25,11 +25,11 @@
     border-radius: 2vw;
     .input {
       outline: 0;
-      font-weight: 600;
+      font-weight: 400;
       border: 0.2vw solid #000;
       padding: 2vw;
       width: 90%;
-      font-size: 4vw;
+      font-size: 3vw;
       border-radius: 2vw;
     }
 
@@ -54,7 +54,7 @@
 
 .submit {
   background-color: #2e468c !important;
-  color: #fff;
+  color: #fff !important;
 }
 
 /* @media all and (min-width: 480px) {

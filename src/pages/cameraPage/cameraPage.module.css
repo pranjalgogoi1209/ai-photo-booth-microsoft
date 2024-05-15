@@ -11,8 +11,8 @@
     height: 18vw;
   }
   .main {
-    width: 65vw;
-    border: 1vw solid var(--themeColor1);
+    width: 45vw;
+    border: 0.5vw solid var(--themeColor1);
     border-radius: 2vw;
     /* border-bottom: 1.2vw solid #c72041; */
     .webcamParent {
@@ -23,7 +23,7 @@
       justify-content: center;
       align-items: center;
       background-color: var(--themeColor1);
-      border-radius: 1vw;
+      border-radius: 1.5vw;
       #webcam {
         width: 100%;
       }
@@ -39,12 +39,12 @@
 
   .footer {
     /* border: 1px solid #fff; */
-    gap: 3vw;
+    /* gap: 3vw; */
     /* .captureBtn {
       width: 60vw;
     } */
     .foot {
-      gap: 3vw;
+      gap: 2vw;
     }
   }
 }

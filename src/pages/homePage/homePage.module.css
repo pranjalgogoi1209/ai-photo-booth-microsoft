@@ -12,6 +12,7 @@
     flex-wrap: wrap;
     gap: 2vw;
     .singleImg {
+      border: 0.2vw solid var(--themeColor1);
       width: 20vw;
       border-radius: 2vw;
       img {

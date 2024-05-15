@@ -22,7 +22,7 @@ export default function HomePage() {
 
       <div className={`flex-row-center ${styles.avatarContainer}`}>
         {cardsArr?.map((item, idx) => (
-          <div key={idx} className={styles.singleImg}>
+          <div key={idx} className={`flex-row-center ${styles.singleImg}`}>
             <img src={item} alt="avatar" />
           </div>
         ))}

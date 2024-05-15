@@ -34,7 +34,7 @@ body {
   background-size: cover;
   /* background-repeat: no-repeat; */
   width: 100vw;
-  height: 100vh;
+  height: 100dvh;
   /* max-height: 100vh; */
   min-width: 100vw;
   max-width: 100vw;
@@ -43,7 +43,7 @@ body {
 
 h1 {
   color: var(--themeColor1);
-  font-size: 7vw;
+  font-size: 6vw;
   text-align: center;
   line-height: 10vw;
 }
@@ -107,21 +107,23 @@ button {
 }
 
 .btn1 {
-  width: 50vw;
-  font-size: 5vw;
+  color: #2e468c;
+  width: 40vw;
+  font-size: 4vw;
   font-weight: 600;
-  padding: 1vw 4vw;
-  border-radius: 6vw;
+  padding: 1vw 2vw;
+  border-radius: 2vw;
   background-color: var(--themeColor1);
   box-shadow: 0 0 2vw rgba(255, 255, 255, 0.5);
 }
 
 .btn2 {
+  color: #2e468c;
   width: 25vw;
-  font-size: 5vw;
+  font-size: 4vw;
   font-weight: 600;
   padding: 1vw 2vw;
-  border-radius: 6vw;
+  border-radius: 2vw;
   background-color: var(--themeColor1);
   box-shadow: 0 0 2vw rgba(255, 255, 255, 0.5);
 }

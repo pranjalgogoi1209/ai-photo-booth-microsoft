@@ -59,7 +59,7 @@ export default function CameraPage({ setCapturedImg }) {
         className={isCaptured ? styles.headingImg2 : styles.headingImg1}
       /> */}
 
-      <h1>{isCaptured ? "DO YOU LIKE THIS ?" : "GET CLICKED ?"}</h1>
+      <h1>{isCaptured ? "DO YOU LIKE THIS ?" : "CAPTURE YOUR PHOTO"}</h1>
 
       <main className={styles.main}>
         <div className={styles.webcamParent}>
