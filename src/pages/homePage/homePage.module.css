@@ -1,0 +1,26 @@
+.HomePage {
+  /*  .containerOne {
+    width: 50vw;
+  } */
+  /*  .headingTxt {
+    width: 50vw;
+  } */
+  gap: 3vw;
+  .avatarContainer {
+    /* border: 1px solid #fff; */
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 2vw;
+    .singleImg {
+      width: 20vw;
+      border-radius: 2vw;
+      img {
+        border-radius: 2vw;
+      }
+    }
+  }
+
+  /* .imgContainer {
+    width: 60vw;
+  } */
+}

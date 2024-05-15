@@ -1,0 +1,9 @@
+.Header {
+  /* border: 1px solid #fff; */
+  justify-content: flex-start !important;
+  padding: 5vw;
+  .imgContainer {
+    /* border: 1px solid #fff; */
+    width: 35vw;
+  }
+}
