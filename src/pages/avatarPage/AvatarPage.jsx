@@ -72,7 +72,7 @@ export default function AvatarPage({
   const getUrl = url => {
     axios
       .post(
-        "https://adp24companyday.com/aiphotobooth/aiphotobooth_comiccon/upload.php",
+        "https://analytiq4.com/aiphotobooth/aiphotobooth_bluehat/upload.php",
         {
           img: url,
         }
@@ -104,7 +104,7 @@ export default function AvatarPage({
               // status: "PREMIUM",
             })
             .then(function (response) {
-              console.log(response);
+              // console.log(response);
               setGeneratedImg(`data:image/webp;base64,${response.data.result}`);
 
               // image uploading on server

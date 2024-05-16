@@ -77,14 +77,14 @@ export default function Email({ setShowEmail, url }) {
     try {
       axios
         .post(
-          "https://adp24companyday.com/aiphotobooth/aiphotobooth_comiccon/emailer/index.php",
+          "https://analytiq4.com/aiphotobooth/aiphotobooth_bluehat/emailer/index.php",
           {
             url: url,
             email: userEmail,
           }
         )
         .then(function (response) {
-          console.log(response);
+          // console.log(response);
         })
         .catch(function (error) {
           console.log(error);
